@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Corn</title>
+    <link rel="icon" href="./Assests/Favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="p-3 background-color-#373b69">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="./Assests/logo-no-background.png" alt="Icon" width="205" height="30" aria-label="Home">
+            </a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"></ul>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search" id = "form">
+              <input type="search" class="form-control form-control-dark text-bg-light" placeholder="Search..." aria-label="Search" id="search">
+            </form>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <div class="movie">
+          <img src="https://image.tmdb.org/t/p/w1280/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg" alt="Spider-Man: Across the Spider-Verse">
+          <div class="movie-info">
+            <h3>Spider-Man: Across the Spider-Verse</h3>
+            <span class="green">8.526</span>
+          </div>
+          <div class="overview"></div>
+        </div>
+      </main>
+
+  <div class="container-fluid" style="padding: 100px;" id="information">
+    <div  id="row">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6" style="text-align: center; display: block;">
+        <img src="./Assests/GOT.jpg" width="50%" alt="Game Of Thrones" class="img-fluid">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 details" style="color:rgb(245, 196, 36);">
+        <a href="" style="font-weight: bolder; padding-bottom: 20px;font-size:xxx-large;text-decoration: none;color:rgb(245, 196, 36);">GAME OF THRONES</a>
+        <p>
+          <span style="color: aliceblue;">Genre:</span>
+          <span>Action</span>
+        </p>
+        <p>
+          <span style="color: aliceblue;">Language:</span>
+          <span> English</span></p>
+        <p>
+          <span style="color: aliceblue;">Rating:</span>
+          <span> 8.2</span></p>
+        <p>
+          <span style="color: aliceblue;">Released:</span>
+          <span> 2023-05-17</span></p>
+      </div>
+    </div>
+    <div id= 'about'>
+      OverView
+    </div>
+    <div id= 'about-details'>
+      Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.
+    </div>
+    </div>
+  </div>
+  
+  <hr style="color: black;"/>
+
+  <footer>
+    All movie data is provided by TMDb API (The Movie Database).<br/>
+    <a href="https://imdb-api.com/" target="_blank"><img src="./Assests/imdb.jpg" alt="Imdb"></a>
+  </footer>
+  <script src="script.js"></script>
+  <!-- <script type="module" src="langauge.js"></script> -->
+</body>
+</html>
